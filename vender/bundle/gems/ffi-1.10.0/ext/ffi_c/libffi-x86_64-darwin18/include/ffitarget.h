@@ -1,0 +1,1 @@
+/Users/yugo/Dropbox/Programing/Ruby_on_Rails/Railstutorial_5.1/environment/sample_app/vender/bundle/gems/ffi-1.10.0/ext/ffi_c/libffi/src/x86/ffitarget.h

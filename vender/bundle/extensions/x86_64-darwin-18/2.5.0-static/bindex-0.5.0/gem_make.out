@@ -1,0 +1,15 @@
+current directory: /Users/yugo/Dropbox/Programing/Ruby_on_Rails/Railstutorial_5.1/environment/sample_app/vender/bundle/gems/bindex-0.5.0/ext/bindex
+/Users/yugo/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20190218-26944-uu8970.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yugo/Dropbox/Programing/Ruby_on_Rails/Railstutorial_5.1/environment/sample_app/vender/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/yugo/Dropbox/Programing/Ruby_on_Rails/Railstutorial_5.1/environment/sample_app/vender/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/yugo/Dropbox/Programing/Ruby_on_Rails/Railstutorial_5.1/environment/sample_app/vender/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190218-26944-wa0yw4/bindex
