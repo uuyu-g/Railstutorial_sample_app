@@ -69,4 +69,8 @@ class UserTest < ActiveSupport::TestCase
     @user.password = @user.password_confirmation = "a"*5
     assert_not @user.valid?
   end
+
+  test "ダイジェストがnilのユーザーの時、'authenticated?'はfalseを返す" do
+    assert_not @user.authenticated?('')
+  end
 end
