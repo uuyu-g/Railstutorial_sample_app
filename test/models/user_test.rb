@@ -71,6 +71,6 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test "ダイジェストがnilのユーザーの時、'authenticated?'はfalseを返す" do
-    assert_not @user.authenticated?('')
+    assert_not @user.authenticated?(:remember,'')
   end
 end
